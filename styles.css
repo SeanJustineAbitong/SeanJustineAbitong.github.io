@@ -2,18 +2,29 @@ body {
 background-image:url("https://wallpapers.com/images/hd/white-color-background-4vpk5thu0y55dypi.jpg")
 }
 
-h1, h2 {
-  color: turquoise;
+h2 {
+  color: crimson;
   font-family: Impact;
 }
 
 h1 {
   text-align: center;
+  text-decoration: underline;
 }
 
 li, div, p {
-   color: lightblue;
+  color: tan;
   font-family: Courier;
+  font-weight: bold;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
 }
 
 .reveal-text-container .reveal-text {
@@ -24,7 +35,6 @@ li, div, p {
   color: transparent;
 
   animation: showText forwards;
-  animation-delay: 1000ms;
 }
 
 .reveal-text-container .reveal-bg {
@@ -34,7 +44,7 @@ li, div, p {
   background: #e63946;
   left: 0;
 
-  animation: revealText 1200ms ease-out;
+  animation: revealText 950ms ease-out;
 }
 
 @keyframes revealText {
