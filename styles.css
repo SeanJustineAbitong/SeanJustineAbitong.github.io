@@ -2,10 +2,16 @@ body {
 background-image:url("https://wallpapers.com/images/hd/white-color-background-4vpk5thu0y55dypi.jpg")
 }
 
+a:link {
+  color: black;
+}
 
-h1 {
+a:link:hover {
+  color: crimson;
+}
+
+.h3center {
   text-align: center;
-  text-decoration: underline;
 }
 
 h2, h3 {
@@ -13,9 +19,8 @@ h2, h3 {
   font-family: Impact;
 }
 
-h4 {
-  font-weight: bold;
-  color: tan;
+h1 {
+  text-align: center;
   text-decoration: underline;
 }
 
@@ -23,19 +28,15 @@ li, div, p {
   color: tan;
   font-family: Verdana;
   font-weight: bold;
+  font-size 20px;
 }
-
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 250px;
+  height: 400px;
   width: 500px;
-}
-
-.h3center {
-  text-align: center
 }
 
 .reveal-text-container .reveal-text {
