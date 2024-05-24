@@ -2,13 +2,20 @@ body {
 background-image:url("https://wallpapers.com/images/hd/white-color-background-4vpk5thu0y55dypi.jpg")
 }
 
-h2 {
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2, h3 {
   color: crimson;
   font-family: Impact;
 }
 
-h1 {
-  text-align: center;
+h4 {
+  font-weight: bold;
+  color: tan;
   text-decoration: underline;
 }
 
@@ -24,7 +31,11 @@ li, div, p {
   margin-left: auto;
   margin-right: auto;
   height: 250px;
-  width: 250px;
+  width: 500px;
+}
+
+.h3center {
+  text-align: center
 }
 
 .reveal-text-container .reveal-text {
